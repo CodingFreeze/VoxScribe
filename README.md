@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 🎙️ VoxScribe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A powerful browser-based audio transcription tool that turns your voice into text using the Whisper model. Built with React and modern web technologies, this portfolio project showcases the integration of AI and web development.
 
-## Available Scripts
+![VoxScribe Demo](public/demo.gif)
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🎯 Real-time audio transcription using Whisper
+- 🎵 Support for multiple audio formats (MP3, WAV, M4A, etc.)
+- 💾 Local processing - your audio never leaves your device
+- 🎨 Modern, responsive UI
+- 🚀 Pro features (coming soon):
+  - Batch processing
+  - Advanced export options
+  - Custom model training
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository:
+```bash
+git clone https://github.com/CodingFreeze/VoxScribe.git
+cd VoxScribe
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server:
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open your browser and navigate to `http://localhost:3000`
 
-### `npm run eject`
+## 🛠️ Building for Production
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To create a production build:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will create an optimized production build in the `build` folder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎯 Usage
 
-## Learn More
+1. Click the "Upload Audio" button or drag and drop your audio file
+2. Wait for the file to process
+3. Click "Start Transcription"
+4. Watch as your audio is transcribed in real-time
+5. Export your transcription in your preferred format
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We welcome contributions! Please feel free to submit a Pull Request.
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## 🙏 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- OpenAI for the Whisper model
+- FFmpeg for audio processing
+- The React community for amazing tools and libraries
 
-### Making a Progressive Web App
+## 📞 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Portfolio: [Coming Soon]
+- Email: abdullahranaofc@gmail.com
+- GitHub: [CodingFreeze](https://github.com/CodingFreeze)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [AR](https://github.com/CodingFreeze)
